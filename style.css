@@ -1,0 +1,135 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 35px;
+  background-color: #F5F1ED;
+  margin: 30px auto;
+  box-shadow: 3px 3px 80px #8E8E8E;
+  padding: 20px 20px;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 80px #28262C;
+}
+
+#card1 {
+  width: 60vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.1s ease-in-out, height 0.1s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+#card1:hover {
+  width: 61vw;
+  height: 8vh;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  height: 5vh;
+  padding: 10px 15px;
+  font-size: 15px;
+  width: 50vw;
+  transition: width 0.1s ease-in-out, height 0.1s ease-in-out;
+}
+
+.search input:hover {
+  width: 51vw;
+  height: 6vh;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.search button img {
+  height: 5vh;
+  width: 2.5vw;
+  transition: transform 0.5s ease-in-out, width 0.1s ease-in-out, height 0.1s ease-in-out;
+}
+
+.search button img:hover {
+  transform: rotate(30deg);
+  width: 6vh;
+  height: 3vw;
+}
+
+#card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+  height: 55vh;
+  margin-left: 2vw;
+}
+
+#p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 0px 100px 0px 0px;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wind {
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.hum {
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#key-img {
+  height: 45vh;
+  width: 35vw;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#card3 {
+  margin: 30px auto;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#card4, #card5 {
+  margin: 1vh 1vw;
+  width: 28vw;
+  height: 23vh;
+  text-align: center;
+}
